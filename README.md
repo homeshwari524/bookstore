@@ -1,12 +1,17 @@
 # 📚 Django Bookstore Application
 
-A complete e-commerce bookstore built with Django, MySQL, and Bootstrap. Features user authentication, shopping cart, book catalog, and admin dashboard.
+An end-to-end e-commerce bookstore web application built using Django, MySQL, and Bootstrap. It includes essential features like user registration/login, a searchable book catalog, shopping cart functionality, and a full admin dashboard for managing books, users, and orders. Ideal for learning full-stack web development with Django.
 
 ## 📸 Screenshots
-![Screenshot 2025-04-11 021900](https://github.com/user-attachments/assets/e8be2604-8bf2-4a7c-99b9-9d972da591a3)
-![Screenshot 2025-04-11 022150](https://github.com/user-attachments/assets/8ab53ec4-2ed4-4673-8156-53d7cb2c7077)
-![Screenshot 2025-04-11 021933](https://github.com/user-attachments/assets/687a5333-697f-4329-aab3-f9622823733d)
-![Screenshot 2025-04-11 021921](https://github.com/user-attachments/assets/e95c4574-32f4-4968-ad7d-3b92b3490e11)
+![image](https://github.com/user-attachments/assets/255eb7cb-0229-47f7-80b8-9612399bfbaf)
+![image](https://github.com/user-attachments/assets/a20b6f4e-89ee-4aad-b50b-627fd36178a1)
+![image](https://github.com/user-attachments/assets/d31b102c-bf91-4790-9ae1-8e64a16bb078)
+![image](https://github.com/user-attachments/assets/95953af9-202e-45ac-899f-8a8e52997d1a)
+![image](https://github.com/user-attachments/assets/f3a62d10-1b0a-420e-9f3a-4b2d89a4c3f8)
+
+
+
+
 
 
 ## ✨ Features
