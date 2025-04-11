@@ -1,0 +1,309 @@
+/* Bookstore Dark Theme CSS */
+/* ======================== */
+
+/* Base Styles */
+/* ---------- */
+body {
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Layout Components */
+/* ---------------- */
+
+/* Main Content Container */
+.container.mt-4 {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    border: 1px solid #333;
+    flex: 1;
+}
+
+/* Navbar - Custom Dark Purple */
+.navbar {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-brand::before {
+    content: "📚 ";
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.2s;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 4px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #6c5ce7;
+    background-color: rgba(108, 92, 231, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    color: #6c5ce7;
+    font-weight: 500;
+}
+
+/* Footer - Coordinated Dark Theme */
+footer.bg-dark {
+    background-color: #16213e !important;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid #2d2d42;
+    padding: 1.5rem 0;
+    margin-top: auto;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/* Card Styles */
+/* ---------- */
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #2d2d2d;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #b0b0b0;
+    margin-bottom: 0.5rem;
+}
+
+.card-footer {
+    border-top: 1px solid #444;
+    background-color: #252525;
+    padding: 1rem;
+}
+
+/* Button Styles */
+/* ------------ */
+.btn {
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background-color: #6c5ce7;
+    border-color: #6c5ce7;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #5649c0;
+    border-color: #5649c0;
+    transform: translateY(-1px);
+}
+
+.btn-success {
+    background-color: #00b894;
+    border-color: #00b894;
+    border-radius: 20px;
+}
+
+.btn-success:hover {
+    background-color: #00a383;
+    border-color: #00a383;
+}
+
+.btn-outline-secondary {
+    border-radius: 20px;
+    color: #b0b0b0;
+    border-color: #555;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #d63031;
+    border-color: #d63031;
+}
+
+.btn-danger:hover {
+    background-color: #b02a2a;
+    border-color: #b02a2a;
+}
+
+/* Form Styles */
+/* ---------- */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #444;
+    padding: 10px 15px;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.form-label {
+    color: #b0b0b0;
+    margin-bottom: 0.5rem;
+}
+
+/* Table Styles */
+/* ----------- */
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+    color: #e0e0e0;
+    margin-bottom: 1.5rem;
+}
+
+.table th {
+    background-color: #6c5ce7;
+    color: white;
+    font-weight: 500;
+    padding: 12px 15px;
+}
+
+.table td {
+    vertical-align: middle;
+    padding: 12px 15px;
+    border-color: #444;
+    background-color: #2d2d2d;
+}
+
+.table-dark td {
+    background-color: #333;
+    color: white;
+}
+
+/* Alert Styles */
+/* ----------- */
+.alert {
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.alert-info {
+    background-color: #e7f5fe;
+    color: #0c5460;
+}
+
+/* Cart Specific Styles */
+/* ------------------ */
+.cart-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.cart-actions .btn {
+    min-width: 180px;
+    text-align: center;
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+}
+
+/* Emoji Enhancements */
+/* ----------------- */
+.btn-success i.bi-cart-plus::before {
+    content: "🛒 ";
+}
+
+.btn-danger i.bi-trash::before {
+    content: "🗑 ";
+}
+
+.btn-outline-secondary i.bi-arrow-left::before {
+    content: "⬅ ";
+}
+
+.card-footer a.btn-primary::before {
+    content: "🔍 ";
+}
+
+/* Headings */
+/* ------- */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+h1 {
+    border-bottom: 2px solid #6c5ce7;
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+}
+
+/* Responsive Adjustments */
+/* --------------------- */
+@media (max-width: 768px) {
+    .container.mt-4 {
+        padding: 20px;
+    }
+    
+    .cart-actions {
+        justify-content: center;
+    }
+    
+    .cart-actions .btn {
+        width: 100%;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 0.5rem;
+        margin: 0.1rem 0;
+    }
+}
